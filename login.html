@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="form1.css">
+<nav>
+  <ul>
+      <li class="brand"><img src="logo.png" alt="Spotify"> RStify</li>
+      <li><a href="index.html">Back to Home</a></li>
+      
+      <li><a href="Query.html">Query</a></li>
+  </ul>
+</nav>
+<form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="covers/Avatar.jpg" alt="Avatar" class="avatar"height="150vh" width="5vw">
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container ">
+        <p>Don't have an account? <a href="form.html">Register</a>.</p>
+      </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+   
+  </form>

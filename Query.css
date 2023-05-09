@@ -1,0 +1,18 @@
+.newsletter{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:30px;
+	border:1px solid rgba(255,255,255,0.2);
+}
+.newsletter>div{
+	flex-basis: 50%;
+}
+Header{
+	background: #262626;
+	color: white;
+	width: 100%;
+
+	padding: 50px 100px;
+}
